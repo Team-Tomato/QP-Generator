@@ -7,7 +7,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/language-React-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/language-Bootstrap-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-CSS-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge">  
  </p>
  
@@ -40,4 +40,4 @@ You can refer to the following articles on the basics of Git and Github and also
 
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
-We always prefer Slack, yet we dedcided to try whatsapp for communication to reduce the gap between the mentee and mentor. If you have read our [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) and decided to contribute to the project, please join the [Whatsapp chat](https://chat.whatsapp.com/FPC7s89jrtr44ZvCHY9CJM)
+We always prefer Slack, yet we decided to try WhatsApp for communication to reduce the gap between the mentee and mentor. If you have read our [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) and decided to contribute to the project, please join the [Whatsapp chat](https://chat.whatsapp.com/FPC7s89jrtr44ZvCHY9CJM)
