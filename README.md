@@ -1,4 +1,7 @@
-﻿<p align="center">
+#### For NWoC, KWoC, SWoC
+We always prefer Slack, yet we decided to try WhatsApp for communication to reduce the gap between the mentee and mentor. If you have read our [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) and decided to contribute to the project, please join the [Whatsapp chat](https://chat.whatsapp.com/FPC7s89jrtr44ZvCHY9CJM)
+
+<p align="center">
   <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=009ACD&height=100&section=header&text=QP-Generator&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
   <h2 align="center">👉A Question Generation App👈</h2>
 </p>
@@ -40,4 +43,4 @@ You can refer to the following articles on the basics of Git and Github and also
 
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
-We always prefer Slack, yet we decided to try WhatsApp for communication to reduce the gap between the mentee and mentor. If you have read our [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) and decided to contribute to the project, please join the [Whatsapp chat](https://chat.whatsapp.com/FPC7s89jrtr44ZvCHY9CJM)
+
