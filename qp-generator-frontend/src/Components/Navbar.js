@@ -1,25 +1,51 @@
-import React from 'react'
-import './Style/Navbar.css'
-// import { makeStyles } from '@material-ui/core/styles';
-// import Button from '@material-ui/core/Button';
+import React, { useState } from 'react';
+import {BrowserRouter as Router, Link } from 'react-router-dom';
+import './Navbar.css';
+
 function Navbar() {
-    return (
-        <div >
-            <div className="topnav">
-                {/* <a className="/" href="#home">Qp Ganerator</a> */}
-                <a className="/" href="#home">Home</a>
-                <a href="/">News</a>
-                <a href="/">Contact</a>
-                <a href="/">About</a>
-                <div className='login'>
-                <a href="/">SingIn</a>
-                <a href="/">SingUp</a>
+  const [click, setClick] = useState(false);
+const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-                </div>
-            </div>
-
+  return (
+    <>
+      <nav className='navbar'>
+          <Router>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          QP-GENERATOR
+        </Link>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-    )
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Sign Up
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Sign In
+            </Link>
+          </li>
+        </ul>
+        </Router>
+      </nav>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
