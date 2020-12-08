@@ -67,7 +67,7 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 60%;
+      width: 50%;
       height: 90vh;
       position: absolute;
       top: 80px;
@@ -86,8 +86,8 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
-      width: 100%;
+      padding: 1rem;
+      width: 50%;
       display: table;
     }
   
@@ -124,7 +124,7 @@
       padding: 1.5rem;
       margin: 2rem auto;
       border-radius: 4px;
-      width: 80%;
+      width: 100%;
       background: #ff18b2;
       text-decoration: none;
       color: #fff;
