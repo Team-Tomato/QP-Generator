@@ -42,4 +42,21 @@ You can refer to the following articles on the basics of Git and Github and also
 
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
+## Contributors ✨
 
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/AkbarHabeeb">Akbar Habeeb </a></td>
+ <td align="center"><a href="https://github.com/codewithvk">Vivekkumar Javiya</a></td>
+<td align="center"><a href="https://github.com/Kerveyfelix">Kerin Pithawala</a></td>
+    <td align="center"><a href="https://github.com/Tejas1510"> Tejas Sudhir Tapas </a></td>
+    <td align="center"><a href="https://github.com/Pranav016">Pranav</a></td>
+ <td align="center"><a href="https://github.com/viswamvs"> Viswa</a></td>
+   
+  </tr>
+</table>
