@@ -1,1 +1,0 @@
-Includes the redux part
