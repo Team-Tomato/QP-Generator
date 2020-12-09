@@ -1,51 +1,59 @@
-import React, { useState } from 'react';
-import {BrowserRouter as Router, Link } from 'react-router-dom';
-import './Navbar.css';
+import React, { Component } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
+import {Link,BrowserRouter as Router} from 'react-router-dom';
+import "./Navbar.css"
 
-function Navbar() {
-  const [click, setClick] = useState(false);
-const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+const links = [
+  { href: '/home', text: 'Home' },
+  { href: '/signup', text: 'Sign Up' },
+  { href: '/signin', text: 'Sign In' },
+];
 
-  return (
-    <>
-      <nav className='navbar'>
-          <Router>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          QP-GENERATOR
-        </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Sign Up
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Sign In
-            </Link>
-          </li>
-        </ul>
-        </Router>
-      </nav>
-    </>
-  );
+const createNavItem = ({ href, text, className }) => (
+<Router>
+  <Link to={href} className="nav-links">{text}
+  </Link>
+  </Router>
+);
+
+export default class Example extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isOpen: false
+    };
+
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  
+  render() {
+    return (
+      <div>
+        <Navbar color="light" light expand="md" className="navbar">
+          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              {links.map(createNavItem)}
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 }
-
-export default Navbar;
