@@ -1,9 +1,16 @@
 
-  
+.nav-heading{
+  color:white !important;
+}
+  .navbar {
+    background: linear-gradient(200deg, rgb(114, 112, 253) 0%, rgb(47, 23, 104) 60%);
+    color:white;
+  }
     .nav-links {
       text-align: center;
       padding: 1rem;
-      
+      color: white;
+      font-weight: 500;
       
     }
   

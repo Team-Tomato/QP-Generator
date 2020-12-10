@@ -44,9 +44,9 @@ export default class Example extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md" className="navbar">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+        <Navbar light expand="md" className="navbar">
+          <NavbarBrand href="/" className="nav-heading">QP-Generator</NavbarBrand>
+          <NavbarToggler onClick={this.toggle}/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               {links.map(createNavItem)}
