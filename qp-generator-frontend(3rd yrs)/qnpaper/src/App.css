@@ -1,0 +1,31 @@
+
+/* body{
+overflow: hidden;
+} */
+.header-container{
+  margin: 50px 30px 50px;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-left:auto;
+}
+.right{
+justify-self: right;
+}
+.input{
+  padding: 5px;
+  border: none;
+  text-align: center;
+}
+.input-container{
+  width: 300px;
+}
+.addbtn{
+  margin: 7px;
+}
+
+#center h6{
+  text-align: center;
+}
