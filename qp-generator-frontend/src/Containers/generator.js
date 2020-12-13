@@ -22,7 +22,7 @@ class Generator extends Component {
   }
 
   handleChange(e, index) {
-    const { name, value } = e.target
+    const { value } = e.target
     const ques = [...this.state.questions]
     ques[index] = value
     this.setState({
@@ -64,7 +64,6 @@ class Generator extends Component {
         <TextField
           id="outlined-textarea"
           name="question"
-          id="outlined-textarea"
           label={`Question1`}
           placeholder={`Question1`}
           variant="outlined"
@@ -82,7 +81,6 @@ class Generator extends Component {
             <TextField
               id="outlined-textarea"
               name="question"
-              id="outlined-textarea"
               label={`Question${index + 1}`}
               placeholder={`Question${index + 1}`}
               variant="outlined"
