@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
-import Generator from '../Containers/generator'
+import Generator from '../Containers/Generator'
 
 class AddTextField extends Component {
   constructor() {
