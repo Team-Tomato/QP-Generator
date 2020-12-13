@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Layout/App';
+import App from './Layout/app';
 import { Route, Switch, HashRouter } from "react-router-dom";
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -14,6 +14,6 @@ ReactDOM.render(
     <Switch>
       <Route path="/" render={props => <App {...props} />} />
     </Switch>
-    </HashRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );

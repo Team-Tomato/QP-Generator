@@ -1,16 +1,10 @@
-// import Home from './Views/Home'
-import Generate from './Views/AddTextField'
+import QPGenerate from './Views/qp-generator'
 
 const Routes = [
-  // {
-  //   path: "/",
-  //   name: "home",
-  //   component: Home
-  // }, 
   {
     path: "/",
     name: "createQP",
-    component: Generate
+    component: QPGenerate
   }
 ];
 

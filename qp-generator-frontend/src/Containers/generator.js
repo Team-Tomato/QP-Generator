@@ -102,8 +102,6 @@ class Generator extends Component {
         <Col>
           {textField}
         </Col>
-      </Row >
-      <Row>
         <Col>
           {ques.map((data, index) => {
             return (

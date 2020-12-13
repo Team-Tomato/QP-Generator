@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/navbar'
 import routes from "../route.js";
 
-class Admin extends Component {
+class App extends Component {
 
   getRoutes = routes => {
     return routes.map((prop, key) => {
@@ -20,7 +20,7 @@ class Admin extends Component {
       );
     });
   }
-  
+
   render() {
     return (
       <div className="wrapper">
@@ -34,4 +34,4 @@ class Admin extends Component {
   }
 }
 
-export default Admin;
+export default App;
