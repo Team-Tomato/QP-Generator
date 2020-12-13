@@ -1,4 +1,4 @@
-import QPGenerate from './Views/Qp-generator'
+import QPGenerate from './Views/qp-generator'
 
 const Routes = [
   {
