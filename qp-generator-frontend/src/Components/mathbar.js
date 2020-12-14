@@ -10,7 +10,7 @@ import AirplanemodeInactiveIcon from '@material-ui/icons/AirplanemodeInactive';
 const Mathbar = ({index,handleBar}) => {
     return (
         <div class="icon-bar">
-      <IconButton className="icon" onClick={()=>handleBar(index,'Kishore')}><AddIcon /></IconButton>
+      <IconButton className="icon" onClick={()=>handleBar(index,'$$sum_(i=1)^n i^3=((n(n+1))/2)^2$$')}><AddIcon /></IconButton>
       <IconButton className="icon"><AddBoxIcon /></IconButton>
       <IconButton className="icon"><AddCircleIcon /></IconButton>
       <IconButton className="icon"><AirplanemodeActiveIcon /></IconButton>

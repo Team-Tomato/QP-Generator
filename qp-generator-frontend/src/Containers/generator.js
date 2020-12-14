@@ -7,6 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import AddIcon from '@material-ui/icons/Add';
 import DeleteIcon from '@material-ui/icons/Delete';
 import MathBar from '../Components/mathbar'
+import MathJaxComponent from '../Components/mathjax';
 class Generator extends Component {
   constructor() {
     super()
@@ -127,7 +128,7 @@ class Generator extends Component {
             return (
               <div>
                 <ul>
-                  {<h6>{index + 1}.{data} </h6>}
+                  {<h6>{index + 1}.<MathJaxComponent ques={data} /> </h6>}
                 </ul>
               </div>)
           })}</Col>
