@@ -42,4 +42,10 @@ You can refer to the following articles on the basics of Git and Github and also
 
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
+## Contributors: ✨
 
+<a href="https://github.com/Team-Tomato/QP-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Team-Tomato/QP-Generator" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
