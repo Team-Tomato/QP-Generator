@@ -5,11 +5,12 @@ import Generator from '../Containers/generator'
 class AddTextField extends Component {
 
   render() {
-    return (<Row>
-      <Col>
-        <Generator/>
-      </Col>
-    </Row>)
+    return (
+      <Row>
+        <Col>
+          <Generator />
+        </Col>
+      </Row>)
   }
 }
 
