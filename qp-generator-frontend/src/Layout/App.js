@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import Navbar from "../Components/Navbar";
-import CustomNavbar from "./../Components/CustomNavbar";
+import Navbar from "./../Components/Navbar";
 import routes from "../route.js";
 
 class App extends Component {
@@ -22,8 +21,7 @@ class App extends Component {
     return (
       <div className="wrapper">
         <div id="main-panel" className="main-panel" ref="mainPanel">
-          {/* <Navbar /> */}
-          <CustomNavbar />
+          <Navbar />
           <Switch>
             {this.getRoutes(routes)}
             <Redirect to="/" />
