@@ -1,7 +1,7 @@
 import QPGenerate from "./Views/qp-generator";
-import QP from "./Components/QP";
-import BloomLogic from "./Components/BloomLogic";
-import Help from "./Components/Help";
+import QP from "./Views/QP";
+import BloomLogic from "./Views/BloomLogic";
+import Help from "./Views/Help";
 
 const Routes = [
   {

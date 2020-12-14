@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -17,33 +17,36 @@ const CustomNavbar = (props) => {
     <>
       <Navbar expand="md" style={{ backgroundColor: "#6868CB" }} light>
         <NavbarBrand>
-          <Link to="/" className="text-white text-decoration-none">
+          <NavLink
+            to="/"
+            className="font-weight-bold text-white text-decoration-none"
+          >
             QP-Generator
-          </Link>
+          </NavLink>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="ml-auto" />
         <Collapse isOpen={collapsed} navbar>
           <Nav className="ml-auto text-white" navbar>
             <NavItem className="m-2">
-              <Link
+              <NavLink
                 to="/questionPaper"
                 className="text-white text-decoration-none"
               >
                 QP
-              </Link>
+              </NavLink>
             </NavItem>
             <NavItem className="m-2">
-              <Link
+              <NavLink
                 to="/bloomLogic"
                 className="text-white text-decoration-none"
               >
                 Bloom Logic
-              </Link>
+              </NavLink>
             </NavItem>
             <NavItem className="m-2">
-              <Link to="/help" className="text-white text-decoration-none">
+              <NavLink to="/help" className="text-white text-decoration-none">
                 Help
-              </Link>
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
