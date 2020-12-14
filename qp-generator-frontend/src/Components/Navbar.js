@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 
 const CustomNavbar = (props) => {
+  const navLinkClasses = "font-weight-normal text-white text-decoration-none";
   const [collapsed, setCollapsed] = useState(false);
   const toggleNavbar = () => setCollapsed(!collapsed);
 
@@ -28,23 +29,17 @@ const CustomNavbar = (props) => {
         <Collapse isOpen={collapsed} navbar>
           <Nav className="ml-auto text-white" navbar>
             <NavItem className="m-2">
-              <NavLink
-                to="/questionPaper"
-                className="text-white text-decoration-none"
-              >
+              <NavLink to="/questionPaper" className={navLinkClasses}>
                 QP
               </NavLink>
             </NavItem>
             <NavItem className="m-2">
-              <NavLink
-                to="/bloomLogic"
-                className="text-white text-decoration-none"
-              >
+              <NavLink to="/bloomLogic" className={navLinkClasses}>
                 Bloom Logic
               </NavLink>
             </NavItem>
             <NavItem className="m-2">
-              <NavLink to="/help" className="text-white text-decoration-none">
+              <NavLink to="/help" className={navLinkClasses}>
                 Help
               </NavLink>
             </NavItem>
