@@ -1,3 +1,0 @@
-tasks:
-  - init: "'npm install','npm start'"
-    command: 'echo "TODO: Replace with command to start project"'
