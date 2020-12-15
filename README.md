@@ -40,12 +40,8 @@ You can refer to the following articles on the basics of Git and Github and also
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
-## Use Gitpod- The easy way
-First Fork the repository, you want to contribute. Then add this "gitpod.io/#" before the url of your forked repository as shown in the Gif below. This will create a workspace on the browser window in which you are currently working. After that,you can start contributing on the issues. 
-
-## (Gif) Use Gitpod - The easy way
-![](gitpod-support.gif)
-
+## Contribute using Gitpod- The easy way
+First Fork the repository, you want to contribute. Then add this __gitpod.io/#__ before the url of your forked repository. This will create a workspace on the browser window in which you are currently working. After that,you can start contributing on the issues. 
 
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
