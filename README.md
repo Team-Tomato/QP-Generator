@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Team-Tomato/QP-Generator)
+
 #### For NWoC, KWoC, SWoC
 We always prefer Slack, yet we decided to try WhatsApp for communication to reduce the gap between the mentee and mentor. If you have read our [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) and decided to contribute to the project, please join the [Whatsapp chat](https://chat.whatsapp.com/FPC7s89jrtr44ZvCHY9CJM)
 
