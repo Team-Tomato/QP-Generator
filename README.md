@@ -40,6 +40,17 @@ You can refer to the following articles on the basics of Git and Github and also
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
+## 📌 How to use Gitpod?
+
+1. SignUp in <a href="https://gitpod.io/workspaces/">Gitpod</a> using your GitHub account.
+2. Download Gitpod browser extension
+    - <a href="https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki">For Chrome</a>
+    - <a href="https://addons.mozilla.org/firefox/addon/gitpod/">For Firefox</a>
+3. Refresh the github repo page in your browser.
+4. Click the <b>Gitpod</b> button near the download button. [![Gitpod](https://img.shields.io/badge/---Gitpod-green?style=flat)]()
+5. Now enjoy editing your code in the cloud IDE!!
+
+
 Kindly check the [wiki page](https://github.com/Team-Tomato/QP-Generator/wiki) for more details, Thanks.
 
 ## Contributors: ✨
