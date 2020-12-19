@@ -63,7 +63,7 @@ npm test
 npm run build
 npm run eject
 ```
-For detailed info on these commands and how to use them, check out [QP-Generator document](qp-generator/README.md).
+For detailed info on these commands and how to use them, check out [QP-Generator document](./README.md).
 
 * Open the project in your IDE/ text editor to use it.
 
