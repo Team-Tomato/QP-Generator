@@ -90,9 +90,19 @@ class Generator extends Component {
           value=''
           onChange={e => this.handleChange(e, 0)}
         />
+        <TextField
+          id="marks"
+          name="marks"
+          label={`Marks`}
+          placeholder={`Marks`}
+          variant="outlined"
+          value=''
+        />
         <IconButton aria-label="delete" onClick={this.handleAdd}> <AddIcon className="addbtn" /> </IconButton>
         <IconButton aria-label="delete" onClick={this.handleDelete}> <DeleteIcon className="addbtn" /> </IconButton>
         <Button onClick={()=>this.handleBarButton(0)}>MathBar</Button>
+        <Button onClick={()=>this.handleBarButton(0)}>Re-phrase</Button>
+        <Button onClick={()=>this.handleBarButton(0)}>Math</Button>
       </div>
     }
     else {
