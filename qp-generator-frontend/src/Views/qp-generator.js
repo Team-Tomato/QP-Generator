@@ -6,11 +6,12 @@ class AddTextField extends Component {
 
   render() {
     return (
-      <Row>
+        <Row style={{marginLeft:0,marginRight:0}}>
         <Col>
           <Generator />
         </Col>
-      </Row>)
+        </Row>
+      )
   }
 }
 
