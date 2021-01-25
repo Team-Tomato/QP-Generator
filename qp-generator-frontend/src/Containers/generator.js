@@ -14,7 +14,7 @@ class Generator extends Component {
     this.state = {
       questions: [],
       section: [],
-      mathbar:-1
+      mathbar:-1,
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -23,6 +23,7 @@ class Generator extends Component {
     this.addSection = this.addSection.bind(this)
     this.handleBar = this.handleBar.bind(this)
     this.handleBarButton = this.handleBarButton.bind(this)
+    this.handlePhraseButton = this.handlePhraseButton.bind(this)
   }
 
   handleChange(e, index) {
@@ -47,6 +48,13 @@ class Generator extends Component {
     this.setState({mathbar:index})
     :
     this.setState({mathbar:-1})
+  }
+
+  // To handle the Re-phrase button functionality
+  handlePhraseButton(index) {
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
   }
 
   handleDelete(index) {
@@ -90,9 +98,18 @@ class Generator extends Component {
           value=''
           onChange={e => this.handleChange(e, 0)}
         />
+        <TextField
+          id="marks"
+          name="marks"
+          label={`Marks`}
+          placeholder={`Marks`}
+          variant="outlined"
+          value=''
+        />
         <IconButton aria-label="delete" onClick={this.handleAdd}> <AddIcon className="addbtn" /> </IconButton>
         <IconButton aria-label="delete" onClick={this.handleDelete}> <DeleteIcon className="addbtn" /> </IconButton>
         <Button onClick={()=>this.handleBarButton(0)}>MathBar</Button>
+        <Button onClick={()=>this.handlePhraseButton(0)}>Re-phrase</Button>
       </div>
     }
     else {
